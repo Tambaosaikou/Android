@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivMain"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/onepic"
+        />
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<RadioButton
+    android:id="@+id/rbIndex"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="首页"
+    android:checked="true"
+    android:textColor="@drawable/text_bg"
+    android:drawableTop="@drawable/onebtn_bg"
+    android:button="@null"
+    android:textSize="20sp"
+    android:gravity="center_horizontal"/>
+        <RadioButton
+            android:id="@+id/rbVideo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@drawable/text_bg"
+            android:text="视频"
+            android:drawableTop="@drawable/twobtn_bg"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+        <RadioButton
+            android:id="@+id/rbTopic"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@drawable/text_bg"
+            android:text="话题"
+            android:drawableTop="@drawable/threebtn_bg"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+        <RadioButton
+            android:id="@+id/rbMe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@drawable/text_bg"
+            android:text="我的"
+            android:drawableTop="@drawable/fouthbtn_bg"
+            android:button="@null"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"/>
+    </RadioGroup>
+
+
+</LinearLayout>

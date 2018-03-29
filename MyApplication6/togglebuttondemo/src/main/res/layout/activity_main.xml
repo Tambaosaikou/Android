@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Switch
+        android:id="@+id/lightSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:switchMinWidth="65dp"
+        android:showText="true"
+        android:textOn="I"
+        android:textOff="0"
+        android:track="@drawable/switch_bg"
+        android:thumb="@drawable/switch_thumb_bg"
+        android:text="        灯泡" />
+    <ToggleButton
+        android:id="@+id/btnTG"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_below="@+id/lightSwitch"
+        android:layout_marginTop="30dp"
+        />
+    <ImageView
+        android:id="@+id/ivPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/btnTG" />
+</RelativeLayout>

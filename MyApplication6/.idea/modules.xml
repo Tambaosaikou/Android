@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ImageButtonDemo/ImageButtonDemo.iml" filepath="$PROJECT_DIR$/ImageButtonDemo/ImageButtonDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyApplication6.iml" filepath="$PROJECT_DIR$/MyApplication6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buttondemo/buttondemo.iml" filepath="$PROJECT_DIR$/buttondemo/buttondemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/checkboxdemo/checkboxdemo.iml" filepath="$PROJECT_DIR$/checkboxdemo/checkboxdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progressbardemo/progressbardemo.iml" filepath="$PROJECT_DIR$/progressbardemo/progressbardemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/radiobuttondemo/radiobuttondemo.iml" filepath="$PROJECT_DIR$/radiobuttondemo/radiobuttondemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/relativelayout/relativelayout.iml" filepath="$PROJECT_DIR$/relativelayout/relativelayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/togglebuttondemo/togglebuttondemo.iml" filepath="$PROJECT_DIR$/togglebuttondemo/togglebuttondemo.iml" />
+    </modules>
+  </component>
+</project>
