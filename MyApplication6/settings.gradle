@@ -1,1 +1,1 @@
-include ':app', ':buttondemo', ':ImageButtonDemo', ':relativelayout', ':radiobuttondemo', ':progressbardemo', ':togglebuttondemo', ':checkboxdemo'
+include ':app', ':buttondemo', ':ImageButtonDemo', ':relativelayout', ':radiobuttondemo', ':progressbardemo', ':togglebuttondemo', ':checkboxdemo', ':framedemo'
